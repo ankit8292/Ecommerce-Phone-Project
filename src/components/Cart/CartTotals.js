@@ -35,7 +35,7 @@ export default function CartTotals({value, history}) {
                             <strong>$ {cartTotal}</strong>
                         </h5>
                         <PayPalButton>
-                            total={cartTotal}
+                            totalAmount={cartTotal}
                             clearCart={clearCart}
                             history={history}
                         </PayPalButton>
